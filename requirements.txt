@@ -1,0 +1,9 @@
+langchain-neo4j>=0.2.0
+langchain-groq>=0.3.6
+langchain-community>=0.3.27
+langchain-experimental>=0.3.4
+wikipedia>=1.4.0
+tiktoken>=0.9.0
+neo4j>=5.27.0
+python-dotenv>=1.0.1
+ipykernel>=6.29.5

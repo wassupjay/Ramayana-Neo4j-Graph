@@ -2,6 +2,12 @@
 
 This project demonstrates how to build a Retrieval-Augmented Generation (RAG) system using a Neo4j knowledge graph and the LangChain library with Groq's Llama3 model. The system extracts information from Wikipedia, builds a knowledge graph, and then answers questions based on the structured data in the graph.
 
+## Graph and Node images
+
+![Graph visualization from Neo4j Browser](images/Screenshot%202025-07-22%20at%2010.41.53%E2%80%AFPM.png)
+![Node labels in Neo4j Browser](images/Screenshot%202025-07-22%20at%2010.43.02%E2%80%AFPM.png)
+![Full graph visualisation](images/visualisation.png)
+
 ## Overview
 
 The core idea is to transform unstructured text data into a structured knowledge graph. This graph represents entities (like people, places, organizations) and their relationships. When a user asks a question, the system first retrieves relevant information from the graph and then uses a Large Language Model (LLM) to generate a human-readable answer based on that retrieved context.
